@@ -1,5 +1,7 @@
 package com.media.service;
 
+import Model.MediaContent;
+
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -23,7 +25,7 @@ public class MediaService {
      */
     public List filterByTitle(String title){
         return library.stream()
-                .filter(media -> media.getTitle().contains(title))
+                .filter(media -> media.getTittle().contains(title))
                 .collect(Collectors.toList());
     }
 
