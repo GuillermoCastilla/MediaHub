@@ -10,6 +10,7 @@ import java.util.ArrayList;
 
 public class MediaDAO {
     private Gson gson = new Gson().newBuilder().setPrettyPrinting().create();
+    //private Type listType = new TypeToken<ArrayList<MediaService>>(){}.getType();
 
     public void saveToJson(ArrayList<MediaService> serviceList){
 
