@@ -1,6 +1,6 @@
-package Model;
+package com.media.Model;
 
-public class MediaContent {
+public abstract class MediaContent {
     private int id;
     private String tittle;
     private int duration;

@@ -7,6 +7,7 @@ import com.google.gson.reflect.TypeToken;
 import java.lang.reflect.Type;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class MediaDAO {
     private Gson gson = new Gson().newBuilder().setPrettyPrinting().create();
@@ -16,10 +17,8 @@ public class MediaDAO {
 
     }
 
-    public ArrayList loadFromJson(){
-
+    public List loadFromJson(){
         ArrayList<String> list = new ArrayList();
-
         return list;
     }
 }

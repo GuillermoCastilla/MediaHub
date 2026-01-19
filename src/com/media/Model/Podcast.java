@@ -1,4 +1,4 @@
-package Model;
+package com.media.Model;
 
 public class Podcast extends MediaContent implements Downloadable,Playable {
     private String host;

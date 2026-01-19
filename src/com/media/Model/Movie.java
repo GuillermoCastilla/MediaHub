@@ -1,7 +1,12 @@
-package Model;
+package com.media.Model;
 
 public class Movie extends MediaContent implements Downloadable,Playable {
     private String resolution;
+
+    public Movie(){
+        super();
+        this.resolution = "0x0";
+    }
 
     public Movie(int id, String tittle, int duration, String resolution) {
         super(id, tittle, duration);
@@ -18,9 +23,9 @@ public class Movie extends MediaContent implements Downloadable,Playable {
 
     //Override Interfaces
     @Override
-    public void download() {}
+    public void download(){}
 
     @Override
-    public void play() {}
+    public void play(){}
 
 }

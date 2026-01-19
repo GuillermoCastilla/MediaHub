@@ -1,6 +1,6 @@
 package com.media.service;
 
-import Model.MediaContent;
+import com.media.Model.MediaContent;
 
 import java.util.ArrayList;
 import java.util.Comparator;
